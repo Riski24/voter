@@ -1,0 +1,15 @@
+<h2>Create A Bracket</h2>
+<form>
+	<input type="text" ng-model="name" placeholder="Name">
+	<input type="submit" value="Create" ng-click="createBracket()">
+</form>
+<br>
+<div ng-if="serverResponded">
+	Admin Url:<br>
+	<span id="adminUrl">{{adminUrl}}</span><br>
+	This link allows you to make modifications and control the bracket. Keep this to yourself.<br>
+	<br>
+	User Url:<br>
+	<span id="userUrl">{{userUrl}}</span><br>
+	Give this link to anyone you want to participate in the voting of the bracket.
+</div>

@@ -1,0 +1,28 @@
+{
+  "author": "Kyle Anson",
+  "name": "voter",
+  "version": "1.0.0",
+  "description": "The short version of joke-off just for voting",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Riski24/voter"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.4",
+    "pg-hstore": "^2.3.2",
+    "randomstring": "^1.1.5",
+    "sequelize": "^3.30.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  }
+}
